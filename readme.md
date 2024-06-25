@@ -18,10 +18,6 @@ python3 main.py
 ```
 Resumen del proyecto:
 
-Este proyecto se desarrolla en Python,se crea en un entorno local,
-Se instalan dependencias con PIP,Python Install Package, gestor de paquetes estandar
-para Python, se aislan proyectos en entornos virtuales evitando conflictos entre modulos y sus diferentes versiones.Cuando llevas el proyecto a produccion, a servidores en la nube, nos encontramos que debemos aislar la version de Python, por lo que el proyecto encapsula las aplicaciones en contenedores de Docker.
-
 El desarrollo de este proyecto se lleva a cabo en Python, utilizando un entorno local. Para la gestión de las dependencias, se emplea PIP (Python Install Package). Esta herramienta permite instalar y administrar de forma eficiente las bibliotecas y herramientas necesarias para el proyecto, evitando conflictos entre módulos y sus diferentes versiones.
 
 Adicionalmente, se implementa el uso de entornos virtuales para aislar cada proyecto, garantizando que las dependencias específicas de cada uno no interfieran entre sí.
