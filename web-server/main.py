@@ -2,7 +2,7 @@ import store
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 
-app = FastAPI()
+app = FastAPI() #Se crea una instancia de esta aplicacion
 
 @app.get('/')
 def get_list():
